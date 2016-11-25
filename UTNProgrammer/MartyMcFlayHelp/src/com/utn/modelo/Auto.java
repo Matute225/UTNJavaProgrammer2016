@@ -1,9 +1,16 @@
 package com.utn.modelo;
 
+
 public class Auto {
 
 	private String marca;
 	private String modelo;
+	private int velocidad;	
+	
+	public Auto(String marca, String modelo) {
+		this.marca = marca;
+		this.modelo = modelo;
+	}
 	
 	public String getMarca() {
 		return marca;
@@ -17,6 +24,13 @@ public class Auto {
 	public void setModelo(String modelo) {
 		this.modelo = modelo;
 	}
+	public int getVelocidad() {
+		return velocidad;
+	}
+
+	public void setVelocidad(int velocidad) {
+		this.velocidad = velocidad;
+	}
 	
 	public void encender(){
 		System.out.println("Encendiendo el auto.........");
@@ -26,5 +40,7 @@ public class Auto {
 		System.out.println("Apagando el auto.........");
 		System.out.println("Apagado");
 	}
+	
+
 	
 }
