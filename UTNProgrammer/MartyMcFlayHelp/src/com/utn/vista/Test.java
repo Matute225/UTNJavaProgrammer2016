@@ -10,7 +10,7 @@ public class Test {
 		
 		bf.subirseAlAuto();
 	
-			bf.viajarEnElTiempo();
+		bf.viajarEnElTiempo();
 		
 	}
 
